@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {}
+    "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {
+    "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\PHAN MANH TUAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PHAN MANH TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,8 +21,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +39,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -58,6 +60,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
