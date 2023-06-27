@@ -3,6 +3,7 @@ using API.Services;
 using API.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Extensions
 {

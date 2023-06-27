@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\PHAN MANH TUAN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\PHAN MANH TUAN\\source\\repos\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PHAN MANH TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,6 +21,8 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,13 +59,17 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[5.6.0, )"
+              "version": "[6.26.1, )"
             }
           },
           "imports": [
